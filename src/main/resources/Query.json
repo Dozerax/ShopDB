@@ -1,0 +1,16 @@
+{
+  "insertOrder": "INSERT INTO orders (cID,orderNumber) VALUES",
+  "updateProduct": "UPDATE products SET ",
+  "addProduct": "INSERT INTO orderItem (pID,oID,amount) VALUES",
+  "insertProduct": "INSERT INTO products (productName,price,productCode) VALUES",
+  "selectAllOrder": "SELECT ID,cID FROM orders",
+  "selectOrder": "SELECT ID,pID,oID,amount FROM orderItem WHERE oID = ",
+  "insertCustomer": "INSERT INTO customers (firstName,lastName,phoneNumber) VALUES",
+  "deleteCustomer": "DELETE FROM customers WHERE ID = ",
+  "selectAllProduct": "SELECT ID, productName, price, productCode FROM products",
+  "deleteOrderItem": "DELETE FROM orderItem where oID = ",
+  "updateCustomer": "UPDATE customers SET ",
+  "deleteOrder": "DELETE FROM orders WHERE ID = ",
+  "deleteProduct": "DELETE FROM products WHERE ID = ",
+  "selectCustomer": "SELECT ID, firstName, lastName, phoneNumber FROM customers"
+}

@@ -27,7 +27,7 @@ public class OrderRepositoryImpl implements Repository {
         metaData = resultSet.getMetaData();
         numberOfColumns = metaData.getColumnCount();
 
-        System.out.println("Order table\n");
+        System.out.println("Order table");
 
         for (int i = 1; i <= numberOfColumns; i++)
             System.out.printf("%-8s\t", metaData.getColumnName(i));
@@ -51,7 +51,7 @@ public class OrderRepositoryImpl implements Repository {
         metaData = resultSet.getMetaData();
         numberOfColumns = metaData.getColumnCount();
 
-        System.out.println("Order table\n");
+        System.out.println("Order table");
 
         for (int i = 1; i <= numberOfColumns; i++)
             System.out.printf("%-8s\t", metaData.getColumnName(i));

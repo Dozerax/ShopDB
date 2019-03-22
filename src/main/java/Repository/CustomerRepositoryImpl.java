@@ -27,7 +27,7 @@ public class CustomerRepositoryImpl implements Repository {
         ResultSetMetaData metaData = resultSet.getMetaData();
         int numberOfColumns = metaData.getColumnCount();
 
-        System.out.println("Customers table\n");
+        System.out.println("Customers table");
 
         for (int i = 1; i <= numberOfColumns; i++)
             System.out.printf("%-8s\t", metaData.getColumnName(i));
